@@ -20,7 +20,7 @@ class shuffling{
         }
 
         //Printing the array after shuffle
-        System.out.println(Arrays.toString(array));
+        System.out.println("Array after swapping : "+Arrays.toString(array));
 
     }
 
@@ -32,9 +32,33 @@ class shuffling{
         //Array size
         int n=array.length;
 
+        //Printing the array before swapping
+        System.out.println("Array before swapping : "+Arrays.toString(array));
+
         //Calling randomize function
         randomize(array,n);
 
     }
 
 }
+
+/********************************/
+/*** Few Output For This Code ***/
+/********************************/
+
+/*
+Output 1
+
+Array before swapping : [1, 2, 3, 4, 5, 6, 7]
+Array after swapping : [5, 7, 2, 6, 1, 3, 4]
+
+*/
+
+/*
+Output 2
+
+Array before swapping : [1, 2, 3, 4, 5, 6, 7]
+Array after swapping : [4, 6, 7, 3, 1, 2, 5]
+
+*/
+

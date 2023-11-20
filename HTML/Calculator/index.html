@@ -9,12 +9,16 @@
 <body>
     <div class="calculator-section">
         <table class="calculator">
-
+    
+            <!-- Display row with a text input for the result and a button to reset -->
             <tr>
                 <td colspan="3"><input type="text" class="result"></td>
                 <td><input type="button" value="AC" class="button teal" onclick="reset()"></td>
             </tr>
     
+            <!-- Numeric and operator rows -->
+    
+            <!-- Row for buttons 7, 8, 9, and addition (+) -->
             <tr>
                 <td><input type="button" value="7" class="button" onclick="eva('7')"></td>
                 <td><input type="button" value="8" class="button" onclick="eva('8')"></td>
@@ -22,6 +26,7 @@
                 <td><input type="button" value="+" class="button grey" onclick="eva('+')"></td>
             </tr>
     
+            <!-- Row for buttons 4, 5, 6, and subtraction (-) -->
             <tr>
                 <td><input type="button" value="4" class="button" onclick="eva('4')"></td>
                 <td><input type="button" value="5" class="button" onclick="eva('5')"></td>
@@ -29,6 +34,7 @@
                 <td><input type="button" value="-" class="button grey" onclick="eva('-')"></td>
             </tr>
     
+            <!-- Row for buttons 1, 2, 3, and division (/) -->
             <tr>
                 <td><input type="button" value="1" class="button" onclick="eva('1')"></td>
                 <td><input type="button" value="2" class="button" onclick="eva('2')"></td>
@@ -36,6 +42,7 @@
                 <td><input type="button" value="/" class="button grey" onclick="eva('/')"></td>
             </tr>
     
+            <!-- Row for buttons '.', 0, equals (=), and multiplication (*) -->
             <tr>
                 <td><input type="button" value="." class="button" onclick="eva('.')"></td>
                 <td><input type="button" value="0" class="button" onclick="eva('0')"></td>
@@ -45,6 +52,7 @@
     
         </table>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

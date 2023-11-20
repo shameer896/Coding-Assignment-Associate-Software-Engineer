@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #c6c5c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+    border-spacing: 0;
+}
+
+.button {
+  width: 100%;
+  font-size: 24px;
+  background-color: #222;
+  color: white;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+}
+
+.result {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  color: black;
+}
+
+.teal{
+    background-color: rgb(5, 198, 172);
+}
+
+.grey{
+    background-color: #888;
+}

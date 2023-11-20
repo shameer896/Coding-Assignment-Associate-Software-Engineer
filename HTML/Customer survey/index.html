@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylr.css" />
+    <script defer src="script.js"></script>
+    <title>Customer Survey</title>
+</head>
+
+<body>
+    <div class="survey-form-section">
+        <h1 class="heading">Customer Survey Form</h1>
+        <form class="survey-form" onsubmit="submitForm(event)">
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="John" name="" id="first-name" required autocomplete="off" />
+            </div>
+
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Smith" name="" id="last-name" required autocomplete="off" />
+            </div>
+
+            <div>
+                <label for="date-of-birth">Date Of Birth</label>
+                <input type="date" name="" id="date-of-birth" required autocomplete="off" />
+            </div>
+
+            <div>
+                <label for="country">Country</label>
+                <select id="country" required></select>
+            </div>
+
+            <div>
+                <label>Choose your gender:</label>
+                <div class="radio-element">
+                    <label for="male">Male</label>
+                    <input type="radio" class="radio" name="gender" id="male" value="male" checked />
+                    <label for="female">Female</label>
+                    <input type="radio" class="radio" name="gender" id="female" value="female" />
+                </div>
+            </div>
+
+            <div>
+                <label for="profession">Profession</label>
+                <input type="text" placeholder="example" name="" id="profession" required autocomplete="off" />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@ecample.com" name="" id="email" required autocomplete="off" />
+            </div>
+
+            <div>
+                <label for="number">Mobile No.</label>
+                <input type="text" placeholder="1112223334" name="" id="number" required autocomplete="off" />
+            </div>
+
+            <button class="btn-form">Submit</button>
+            <button class="btn-form" onclick="closePopup()">Reset</button>
+        </form>
+    </div>
+
+    <!-- Popup container -->
+    <div class="popup">
+        
+        <div class="popup-container">
+            <h2>Entered Details</h2>
+            <div id="popup-fname">First Name :</div>
+            <div id="popup-lname">Last Name :</div>
+            <div id="popup-date">Date Of Birth :</div>
+            <div id="popup-country">Country :</div>
+            <div id="popup-gender">Gender :</div>
+            <div id="popup-profession">Profession :</div>
+            <div id="popup-email">Email :</div>
+            <div id="popup-no">Mobile Number :</div>
+            <button class="btn-form popup-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

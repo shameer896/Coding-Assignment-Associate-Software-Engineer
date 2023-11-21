@@ -39,6 +39,6 @@ The `HTML` folder includes solutions for two HTML tasks.
 
 ### Simple calculator
 -  <a href="https://github.com/shameer896/Coding-Assignment-Associate-Software-Engineer/tree/main/HTML/Customer%20survey">Click here</a> to navigate to HTML Task Customer Survey Form
--  <a href="https://html-assessment-2.netlify.app/">Click her</a> for the live demo for Customer Survey Form
+-  <a href="https://html-assessment-2.netlify.app/">Click here</a> for the live demo for Customer Survey Form
 
 Feel free to explore each folder to review the solutions and let me know if you have any questions or need further clarification.

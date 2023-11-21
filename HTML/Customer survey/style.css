@@ -50,6 +50,12 @@ select {
   background-color: rgb(246, 151, 34);
   color: white;
   font-size: 20px;
+  transition: 0.5s;
+}
+
+.btn-form:hover{
+  background-color: rgb(255, 192, 116);
+  color: black;
 }
 
 .radio {

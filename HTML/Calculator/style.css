@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .calculator-section {
@@ -13,7 +13,7 @@
 }
 
 .calculator {
-    border-spacing: 0;
+  border-spacing: 0;
 }
 
 .button {
@@ -25,6 +25,12 @@
   font-size: 24px;
   font-weight: bold;
   border: none;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #999;
+  color: black;
 }
 
 .result {
@@ -35,10 +41,10 @@
   color: black;
 }
 
-.teal{
-    background-color: rgb(5, 198, 172);
+.teal {
+  background-color: rgb(5, 198, 172);
 }
 
-.grey{
-    background-color: #888;
+.grey {
+  background-color: #888;
 }
